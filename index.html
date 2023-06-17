@@ -16,10 +16,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <div class="carousel">
+
+
+
+
+
+
+    
+
+    <section class="container1">
+      <video autoplay muted loop id="myVideo">
+        <source src="VID-20230604-WA0047.mp4" type="video/mp4">
+      </video>
+      
+      <!-- <img src="https://images.unsplash.com/photo-1625558298116-38f0173a522c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" class="image" /> -->
+      <header>EAD LSM Coming Soon</header>
+      <!-- <p>
+        We are excited to announce that we will be launching soon and can't wait to share our new platform with you.
+      </p> -->
+      <div class="time-content">
+        <div class="time days">
+          <span class="number"></span>
+          <span class="text">days</span>
+        </div>
+        <div class="time hours">
+          <span class="number"></span>
+          <span class="text">hours</span>
+        </div>
+        <div class="time minutes">
+          <span class="number"></span>
+          <span class="text">minutes</span>
+        </div>
+        <div class="time seconds">
+          <span class="number"></span>
+          <span class="text">seconds</span>
+        </div>
+      </div>
+      <div class="email-content">
+        <!-- <p>Subscribe now to get the latest updates!</p> -->
+        <div class="input-box">
+          <!-- <input type="email" placeholder="Enter your email..." /> -->
+          <button>REGISTER</button>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <div class="carousel" >
       <a class="carousel-item" href="#">
         <div class="testi">
           <div class="img-area">
@@ -102,14 +157,14 @@
                                                         <div class="content">
                                                             <div class="front">
                                                                 <img class="profile" width="100%" src="/chirag.jpeg" alt="Neymar">
-                                                                <h2>Chirag Agarwal</h2>
+                                                                <h4>Chirag <br>Agarwal</h4>
                                                             </div>
                                                             <div class="back from-left">
-                                                                <h2>Chirag Agarwal</h2>
+                                                                <h4>Chirag Agarwal</h4>
                                                                 <h3>public relation <br> startup and alumni relations <br>competitions and association
                                                                 </h3>
                                     
-                                                                <h4>phone: +91863859832 </h4>
+                                                                <h6>phone: +91863859832 </h6>
                                                                 <br><br><br><br>
                                                                 <!-- <img class="tem-img" src="https://github.com/free-source-code-bd/all-public-resource/blob/main/psg.jpg?raw=true" alt=""> &nbsp;
                                                     <img class="tem-img" src="https://github.com/free-source-code-bd/all-public-resource/blob/main/bra.jpg?raw=true" alt="">  <br> -->
@@ -139,13 +194,13 @@
                                                         <div class="content">
                                                             <div class="front">
                                                                 <img class="profile" width="100%" src="/ankit.jpeg" alt="Ronaldo">
-                                                                <h2>Ankit Kumar Soni</h2>
+                                                                <h4>Ankit Kumar Soni</h4>
                                                             </div>
                                                             <div class="back from-bottom">
-                                                                <h2>Ankit Kunmar Soni</h2>
+                                                                <h4>Ankit Kumar Soni</h4>
                                     
                                                                 <h3>Web <br> competition and association</h3>
-                                                                <h4>phone: +91863859832 </h4>
+                                                                <h6>phone: +91863859832 </h6>
                                                                 <br><br><br><br>
                                                                 <ul class="social-icon">
                                                                     <li><a href="https://www.facebook.com/profile.php?id=100074038685493&mibextid=ZbWKwL"><i
@@ -171,12 +226,12 @@
                                                                 <img class="profile" width="100%"
                                                                     src="/abhisar.jpeg"
                                                                     alt="Messi">
-                                                                <h2>Abhisar Upadhyay</h2>
+                                                                <h4>Abhisar Upadhyay</h4>
                                                             </div>
                                                             <div class="back from-right">
-                                                                <h2>Abhisar upadhyay</h2>
+                                                                <h4>Abhisar upadhyay</h4>
                                                                 <h3>ead lsm coordinator</h3>
-                                                                <h4>phone: +91863859832 </h4>
+                                                                <h6>phone: +91863859832 </h6>
                                                                 <br><br><br><br>
                                                                 <ul class="social-icon">
                                                                     <li><a href="https://www.facebook.com/profile.php?id=100076172946190&mibextid=ZbWKwL"><i
@@ -194,16 +249,6 @@
                                             </div>
                                         </div>
                                         <br>                                       
-
-
-        
-
-
-
-
-
-
-
     <footer class="footer-sec">
       <div class="main">
         <div class="logo row">
@@ -283,6 +328,8 @@
       </div>
     </footer>
 
+    <script src="script.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
@@ -296,6 +343,43 @@
           setTimeout(autoplay, 4500);
         }
       });
+
+
+
+      const seconds = document.querySelector(".seconds .number"),
+  minutes = document.querySelector(".minutes .number"),
+  hours = document.querySelector(".hours .number"),
+  days = document.querySelector(".days .number");
+
+let secValue = 11,
+  minValue = 2,
+  hourValue = 2,
+  dayValue = 9;
+
+const timeFunction = setInterval(() => {
+  secValue--;
+
+  if (secValue === 0) {
+    minValue--;
+    secValue = 60;
+  }
+  if (minValue === 0) {
+    hourValue--;
+    minValue = 60;
+  }
+  if (hourValue === 0) {
+    dayValue--;
+    hourValue = 24;
+  }
+
+  if (dayValue === 0) {
+    clearInterval(timeFunction);
+  }
+  seconds.textContent = secValue < 10 ? `0${secValue}` : secValue;
+  minutes.textContent = minValue < 10 ? `0${minValue}` : minValue;
+  hours.textContent = hourValue < 10 ? `0${hourValue}` : hourValue;
+  days.textContent = dayValue < 10 ? `0${dayValue}` : dayValue;
+}, 1000); //1000ms = 1s
     </script>
   </body>
 </html>
